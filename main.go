@@ -17,6 +17,6 @@ func main() {
 		c.String(http.StatusOK, "Welcome to Go App in Jenkins CI/CD!")
 	})
 
-	router.Run(":8080")
+	router.Run(":7080")
 }
 
